@@ -8,11 +8,7 @@
  * };
  */
 vector<Interval> Solution::insert(vector<Interval> &intervals, Interval newInterval) {
-    // Do not write main() function.
-    // Do not read input, instead use the arguments to the function.
-    // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
-    // If intervals vector is empty push newInteval and return. Case closed.
+
 if(intervals.empty())
 { return vector{newInterval}; }
 
