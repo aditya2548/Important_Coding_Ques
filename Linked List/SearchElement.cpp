@@ -1,4 +1,4 @@
-bool search(Node* head, int x)
+bool search (Node* head, int x)
 {
 	Node* current = head;
 	while (current != NULL)
