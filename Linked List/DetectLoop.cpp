@@ -1,11 +1,11 @@
 int detectLoop(Node* list)
 {
-    Node *slow_p = list, *fast_p = list;
+    Node *slow = list, *fast = list;
  
-    while (slow_p && fast_p && fast_p->next) {
-        slow_p = slow_p->next;
-        fast_p = fast_p->next->next;
-        if (slow_p == fast_p) {
+    while (slow && fast && fast->next) {
+        slow = slow->next;
+        fast = fast->next->next;
+        if (slow == fast) {
             return 1;
         }
     }
