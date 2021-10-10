@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 #define ll long long
 #define endl "\n"
 #define MOD 1e9+7
@@ -31,8 +30,6 @@ void solution()
 
 int main() {
 	int t=1;
-	// cin>>t;
-
 	while(t--)
 	{
 	    solution();
