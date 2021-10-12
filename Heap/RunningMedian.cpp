@@ -11,7 +11,6 @@ int main(){
     leftheap.push(d);
     float med=d;
     cout<<"Median is "<<med<<endl;
- 
     cin>>d;
     while(d!=-1){
         if(leftheap.size()>rightheap.size()){
